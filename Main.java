@@ -14,6 +14,7 @@ public class Main {
         Integer textfield_height = 100;
 
         JTextField textField = new JTextField("0");
+        textField.disable();
         textField.setBounds(0, 0, frame_width, textfield_height);
         textField.setFont(new Font("Arial", Font.BOLD, 30));
 
