@@ -128,9 +128,7 @@ public class Main {
                 } else if (actionCommand.equals("√")) {
                     result = (float) Math.sqrt(Float.parseFloat(textField.getText()));
                     String text_result = result.toString();
-                    System.out.println(text_result);
                     String[] result_parts = text_result.split("\\.");
-                    System.out.println("is this: "+Arrays.toString(result_parts));
                     String float_part = result_parts[1];
                     if (float_part.equals("0")){
                         textField.setText(result_parts[0]);
